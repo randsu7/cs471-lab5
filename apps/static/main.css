@@ -1,0 +1,56 @@
+.linkbox {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+#box1 { background-color: #aaf0be; }
+#box2 { background-color: #555555; }
+#box3 { background-color: #000000; }
+
+#box1 a:link { color: red; }
+#box1 a:visited { color: darkred; }
+#box1 a:hover { color: blue; }
+#box1 a:active { color: purple; }
+
+#box2 a:link { color: yellow; }
+#box2 a:visited { color: orange; }
+#box2 a:hover { color: white; }
+#box2 a:active { color: lime; }
+
+#box3 a:link { color: white; }
+#box3 a:visited { color: lightgray; }
+#box3 a:hover { color: yellow; }
+#box3 a:active { color: red; }
+
+.format-title {
+    color: green;
+    background-color: #f1f5d8;
+    padding: 10px;
+}
+
+.list-title {
+    color: white;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.small-table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.big-table {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+}
